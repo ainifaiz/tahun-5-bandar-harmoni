@@ -1,0 +1,9 @@
+<!doctype html><html lang="ms"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#355f53"><title>Bandar Harmoni 3D · Misi Wira Toleransi</title><link rel="stylesheet" href="./styles.css"></head><body>
+<canvas id="world" aria-label="Dunia Bandar Harmoni tiga dimensi"></canvas>
+<header id="hud" hidden><div class="brand">BH <span>BANDAR HARMONI<small>MISI WIRA TOLERANSI</small></span></div><div class="stats" id="stats"></div><nav><button id="mapBtn" aria-expanded="false">🗺 Peta</button><button id="bookBtn">📖 Misi</button><button id="audioBtn" aria-label="Tetapan bunyi">♫</button><button id="pauseBtn">Ⅱ Jeda</button></nav></header>
+<div id="chapter" hidden><small>PENGEMBARAAN KAMU</small><strong id="cityStatus">Bandar Konflik</strong><span>Dekati penduduk bertanda ⚡</span></div>
+<canvas id="minimap" width="220" height="240" hidden aria-label="Peta mini: lima lokasi dan kedudukan pemain"></canvas>
+<div id="controls" hidden><div id="joystick" aria-label="Joystick gerakan"><div id="knob"></div></div><div class="keyboard">W A S D / ↑ ↓ ← → <span>Berjalan</span></div><button id="interact" disabled>💬 Berinteraksi <kbd>E</kbd></button></div>
+<div id="portraitTip">Tip: Pusingkan peranti untuk pandangan lebih luas.</div><div id="toast" role="status" hidden></div>
+<div id="overlay"></div><section id="certificate" hidden></section>
+<script type="module" src="./src/main.js"></script><noscript>Aktifkan JavaScript untuk memainkan Bandar Harmoni.</noscript></body></html>
